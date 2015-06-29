@@ -1,15 +1,15 @@
 {
-  "name": "chubot",
+  "name": "snowbot",
   "version": "0.0.0",
   "private": true,
   "author": "Alex <alex@yetihq.com>",
-  "description": "The Yeti's pet chubotcabra",
+  "description": "The Yeti's snowbot friend",
   "dependencies": {
     "hubot": "^2.13.2",
     "hubot-ambush": "0.0.3",
     "hubot-cute-me": "^1.0.0",
     "hubot-diagnostics": "0.0.1",
-    "hubot-fliptable": ">= 0.0.0",
+    "hubot-fliptable": "^1.2.0",
     "hubot-google-images": "^0.1.5",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
@@ -20,7 +20,8 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.1",
     "hubot-shipit": "^0.2.0",
-    "hubot-slack": "^3.3.0"
+    "hubot-slack": "^3.3.0",
+    "hubot-youtube": "^1.0.0"
   },
   "engines": {
     "node": "0.10.x"
