@@ -6,6 +6,7 @@
   "description": "The Yeti's pet chupacabrobot",
   "dependencies": {
     "hubot": "^2.13.2",
+    "hubot-ambush": "0.0.3",
     "hubot-cute-me": "^1.0.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.5",
