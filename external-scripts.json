@@ -8,8 +8,5 @@
   "hubot-maps",
   "hubot-redis-brain",
   "hubot-rules",
-  "hubot-shipit",
-  "hubot-cute-me",
-  "hubot-ambush",
-  "hubot-fliptable"
+  "hubot-shipit"
 ]
