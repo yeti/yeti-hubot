@@ -17,24 +17,20 @@ module.exports = (robot) ->
 #              .get() (error, response, body) ->
 #                  # passes back the complete response
 #                  msg.send body
-  robot.respond /norris/i, (msg) ->
-    msg.http('http://api.icndb.com/jokes/random').get() (error, response, body) ->
+  robot.respond /norris/i, (res) ->
+    res.http('http://api.icndb.com/jokes/random').get() (error, response, body) ->
       json = JSON.parse(body)
-      msg.send "#{json.value.joke}"
+      res.send "#{json.value.joke}"
 
 
-  robot.respond /post (.+)/i, (msg) ->
+  robot.respond /post (.+)/i, (res) ->
     url = 'http://httpbin.org/post'
-    data = QS.stringify({'hubot-post': msg.match[1]})
+    data = QS.stringify({'hubot-post': res.match[1]})
 
-    msg.http(url)
+    res.http(url)
         .post(data) (err, res, body) ->
-            msg.send body
+            res.send body
 
   robot.hear /repeat/i, (res) ->
-    console.log res
+#    console.log res
     console.log res.match
-
-
-  robot.respond /announce/i, (msg) ->
-    robot.messageRoom 'random', 'Hello there Randoms.'
