@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c063df31-0b68-412f-92cb-17b56a8fa717" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/announce.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/chuckify.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/announce.coffee" afterPath="$PROJECT_DIR$/scripts/announce.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/tutorial.coffee" afterPath="$PROJECT_DIR$/scripts/tutorial.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,18 +35,28 @@
           <file leaf-file-name="tutorial.coffee" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/tutorial.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-                  <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="announce.coffee" pinned="false" current-in-tab="true">
+          <file leaf-file-name="chuckify.coffee" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scripts/chuckify.coffee">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.55235904" vertical-offset="0" max-vertical-offset="869">
+                  <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="announce.coffee" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/announce.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.29344073" vertical-offset="0" max-vertical-offset="869">
-                  <caret line="16" column="99" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="99" />
                   <folding />
                 </state>
               </provider>
@@ -65,21 +76,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="youtube.coffee" pinned="false" current-in-tab="false">
+          <file leaf-file-name="youtube.coffee" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/node_modules/hubot-youtube/src/youtube.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+                <state vertical-scroll-proportion="0.5957944" vertical-offset="0" max-vertical-offset="856">
                   <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ambush.coffee" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ambush.coffee" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/node_modules/hubot-ambush/src/ambush.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.45560747" vertical-offset="0" max-vertical-offset="856">
-                  <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+                  <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -110,8 +121,9 @@
         <option value="$PROJECT_DIR$/external-scripts.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/scripts/example.coffee" />
-        <option value="$PROJECT_DIR$/scripts/tutorial.coffee" />
         <option value="$PROJECT_DIR$/scripts/announce.coffee" />
+        <option value="$PROJECT_DIR$/scripts/tutorial.coffee" />
+        <option value="$PROJECT_DIR$/scripts/chuckify.coffee" />
       </list>
     </option>
   </component>
@@ -650,34 +662,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/hubot-youtube/src/youtube.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/hubot-ambush/src/ambush.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45560747" vertical-offset="0" max-vertical-offset="856">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/tutorial.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/announce.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29344073" vertical-offset="0" max-vertical-offset="869">
-          <caret line="16" column="99" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/tutorial.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/hubot-youtube/src/youtube.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5957944" vertical-offset="0" max-vertical-offset="856">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/chuckify.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55235904" vertical-offset="0" max-vertical-offset="869">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding />
         </state>
       </provider>
