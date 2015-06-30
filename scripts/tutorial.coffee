@@ -18,4 +18,4 @@ module.exports = (robot) ->
   robot.respond /norris/i, (msg) ->
     msg.http('http://api.icndb.com/jokes/random').get() (error, response, body) ->
       json = JSON.parse(body)
-      msg.send "Joke: #{json.value.joke}"
+      msg.send "#{json.value.joke}"
