@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c063df31-0b68-412f-92cb-17b56a8fa717" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/tutorial.coffee" afterPath="$PROJECT_DIR$/scripts/tutorial.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yeti-hubot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +62,8 @@
           <file leaf-file-name="tutorial.coffee" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/tutorial.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.09363296" vertical-offset="0" max-vertical-offset="801">
-                  <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+                <state vertical-scroll-proportion="0.39325842" vertical-offset="0" max-vertical-offset="801">
+                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -589,8 +588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/tutorial.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09363296" vertical-offset="0" max-vertical-offset="801">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.39325842" vertical-offset="0" max-vertical-offset="801">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
