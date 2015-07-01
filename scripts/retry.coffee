@@ -26,7 +26,7 @@ module.exports = (robot) ->
       msg.send "Did you mean to write 'Come On Eileen'?"
       msg.send "https://www.youtube.com/watch?v=b8ORHVdTxbg"
 
-  robot.respond new RegExp("(?!.*(!!|last|repeat|come on " + robot.name + "))(.*)", "i"), (msg) ->
+  robot.respond new RegExp("(?!.*(!!|last|repeat|come on " + robot.name + "|thanks " + robot.name + "))(.*)", "i"), (msg) ->
     robot.brain.data.last_command = msg.match[0]
 
   robot.hear new RegExp("thanks " + robot.name), (msg) ->
