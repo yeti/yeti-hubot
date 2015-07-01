@@ -30,6 +30,7 @@ module.exports = (robot) ->
 
   robot.hear new RegExp("come on " + robot.name), (msg) ->
     if robot.brain.data.last_command?
+      msg.send robot.brain.data.last_command
       robot.receive new Robot.TextMessage(msg.message.user, robot.brain.data.last_command, msg.id)
     else
       msg.send "Did you mean to write 'Come On Eileen'?"
