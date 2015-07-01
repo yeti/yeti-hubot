@@ -28,7 +28,7 @@ module.exports = (robot) ->
     else
       msg.send "No last command in mah memories"
 
-  robot.hear new RegExp("come on " + robot.name), (msg) ->
+  robot.hear new RegExp("come on " + robot.name, "i"), (msg) ->
     if robot.brain.data.last_command?
       msg.send robot.brain.data.last_command
       robot.receive new Robot.TextMessage(msg.message.user, robot.brain.data.last_command, msg.id)
@@ -36,5 +36,6 @@ module.exports = (robot) ->
       msg.send "Did you mean to write 'Come On Eileen'?"
       msg.send "https://www.youtube.com/watch?v=b8ORHVdTxbg"
 
-  robot.respond /(?!.*(!!|last|repeat))(.*)/i, (msg) ->
+#  robot.respond /(?!.*(!!|last|repeat))(.*)/i, (msg) ->
+  robot.respond new RegExp("(?!.*(!!|last|repeat|come on " + robot.name + "))(.*)", "i"), (msg) ->
     robot.brain.data.last_command = msg.match[0]
