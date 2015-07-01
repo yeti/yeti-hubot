@@ -9,10 +9,6 @@
 #
 # Commands:
 #   come on hubot - Repeat the previous action
-#
-# References:
-#   https://github.com/github/hubot-scripts/blob/master/src/scripts/bang-bang.coffee
-#   https://gist.github.com/lopopolo/4863319
 
 Robot = require('hubot')
 
@@ -31,3 +27,7 @@ module.exports = (robot) ->
 
   robot.hear new RegExp("thanks " + robot.name), (msg) ->
     msg.send "Don't mention it, #{msg.message.user.name}!"
+
+# References:
+#   https://github.com/github/hubot-scripts/blob/master/src/scripts/bang-bang.coffee
+#   https://gist.github.com/lopopolo/4863319
