@@ -1,4 +1,5 @@
 QS = require 'querystring'
+Robot = require('hubot')
 
 module.exports = (robot) ->
 #  robot.hear /come on/i, (res) ->    # .hear is called anytime a message's text matches.
@@ -20,14 +21,11 @@ module.exports = (robot) ->
 
 
 
-  robot.respond /post (.+)/i, (res) ->
-    url = 'http://httpbin.org/post'
-    data = QS.stringify({'hubot-post': res.match[1]})
-
-    res.http(url)
-        .post(data) (err, res, body) ->
-            res.send body
-
-  robot.hear /repeat/i, (res) ->
-#    console.log res
-    console.log res.match
+#  robot.respond /post (.+)/i, (res) ->
+#    url = 'http://httpbin.org/post'
+#    data = QS.stringify({'hubot-post': res.match[1]})
+#
+#    res.http(url)
+#        .post(data) (err, res, body) ->
+#            res.send body
+#
