@@ -9,6 +9,7 @@
 #
 # Commands:
 #   come on hubot - Repeat the previous action
+#
 # References:
 #   https://github.com/github/hubot-scripts/blob/master/src/scripts/bang-bang.coffee
 #   https://gist.github.com/lopopolo/4863319
@@ -19,7 +20,7 @@ module.exports = (robot) ->
 
   robot.hear new RegExp("come on " + robot.name, "i"), (msg) ->
     if robot.brain.data.last_command?
-      msg.send "Sorry, I'll try to #{robot.brain.data.last_command} again."
+      msg.send "Sorry, I'll try '#{robot.brain.data.last_command}' again."
       robot.receive new Robot.TextMessage(msg.message.user, robot.brain.data.last_command, msg.id)
     else
       msg.send "Did you mean to write 'Come On Eileen'?"

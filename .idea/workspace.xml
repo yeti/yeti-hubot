@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c063df31-0b68-412f-92cb-17b56a8fa717" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/try_again.coffee" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/retry.coffee" afterPath="$PROJECT_DIR$/scripts/retry.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/try_again.coffee" afterPath="$PROJECT_DIR$/scripts/try_again.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yeti-hubot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +68,7 @@
           <file leaf-file-name="example.coffee" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scripts/example.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1710">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1695">
                   <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
                   <folding />
                 </state>
@@ -87,18 +88,8 @@
           <file leaf-file-name="retry.coffee" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/retry.coffee">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.20713463" vertical-offset="0" max-vertical-offset="869">
-                  <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="try_again.coffee" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scripts/try_again.coffee">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-                  <caret line="8" column="0" selection-start-line="8" selection-start-column="1" selection-end-line="21" selection-end-column="49" />
+                <state vertical-scroll-proportion="0.18987341" vertical-offset="0" max-vertical-offset="869">
+                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -702,14 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/example.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/chuckify.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
@@ -726,14 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/hubot-youtube/src/youtube.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/tutorial.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6133177" vertical-offset="0" max-vertical-offset="856">
@@ -742,18 +717,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/try_again.coffee">
+    <entry file="file://$PROJECT_DIR$/node_modules/hubot-youtube/src/youtube.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="1" selection-end-line="21" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/example.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/retry.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20713463" vertical-offset="0" max-vertical-offset="869">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.18987341" vertical-offset="0" max-vertical-offset="869">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
