@@ -1,14 +1,15 @@
-## Description:
-##   Repeat the last action
-##
-## Dependencies:
-##   None
-##
-## Configuration:
-##   None
-##
-## Commands:
-##   come on hubot - Repeat the previous action
+# Description:
+#   Repeat the last action
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   come on hubot - Repeat the previous action
+#Robot = require('hubot')
 #
 #module.exports = (robot) ->
 #  robot.respond /(.+)/i, (msg) ->
@@ -27,10 +28,10 @@
 #
 #  saveCommand = (command) ->
 #    robot.brain.data.last_command = command
-#
-## References:
-## https://github.com/github/hubot-scripts/blob/master/src/scripts/bang-bang.coffee
-## https://gist.github.com/lopopolo/4863319
+
+# References:
+# https://github.com/github/hubot-scripts/blob/master/src/scripts/bang-bang.coffee
+# https://gist.github.com/lopopolo/4863319
 
 # Description:
 #   None
@@ -51,16 +52,17 @@ module.exports = (robot) ->
   robot.respond /(.+)/i, (msg) ->
     store msg
 
-  robot.respond /!!$/i, (msg) ->
-
+#  robot.respond /!!$/i, (msg) ->
+  robot.hear new RegExp("come on " + robot.name), (msg) ->
     if exports.last_command?
-      msg.send exports.last_command
+      msg.send "Sorry, I'll try to #{exports.last_command} again..."
       msg['message']['text'] = "#{robot.name}: #{exports.last_command}"
       robot.receive(msg['message'])
       msg['message']['done'] = true
     else
-      msg.send "i don't remember hearing anything."
+      msg.send "Did you mean to write 'Come On Eileen'?"
+      msg.send "https://www.youtube.com/watch?v=b8ORHVdTxbg"
 
 store = (msg) ->
   command = msg.match[1].trim()
-  exports.last_command = command unless command == '!!'
+  exports.last_command = command

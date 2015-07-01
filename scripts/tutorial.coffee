@@ -29,3 +29,6 @@ module.exports = (robot) ->
 #        .post(data) (err, res, body) ->
 #            res.send body
 #
+#  robot.hear /repeat/i, (res) ->
+##    console.log res
+#    console.log res.match
