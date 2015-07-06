@@ -39,7 +39,7 @@ module.exports = (robot) ->
     res.send "Let's eat at #{randomRestaurant.name}. What would you like?"
 
   # Ask hubot for lunch options
-  robot.respond /lunch choices/i, (res) ->
+  robot.respond /lunch options/i, (res) ->
     res.send "Where should we eat today? (select a number)"
     options = ""
     for option, index in restaurants
