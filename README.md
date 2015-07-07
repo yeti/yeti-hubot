@@ -212,3 +212,8 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart` if
 you're having issues.
+
+
+## Keep the Bot active
+Add "hubot-heroku-keepalive",            to external-scripts.json
+Add "hubot-heroku-keepalive": "0.0.4",   to package.json
