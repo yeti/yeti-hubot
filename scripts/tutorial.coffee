@@ -9,7 +9,7 @@ module.exports = (robot) ->
     res['message']['text'] = "#{robot.name}: animate me pikachu"
     robot.receive(res['message'])
     res['message']['done'] = true
-    
+
 #  robot.hear /come on/i, (res) ->    # .hear is called anytime a message's text matches.
 #    reply =
 #      fail: "I'm sorry."

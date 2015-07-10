@@ -9,6 +9,7 @@
 #
 # Commands:
 #   hubot announce <room> <message>
+#   hubot tell <user> <message>
 
 module.exports = (robot) ->
   robot.respond /announce (.*?) (.*)/i, (res) ->
@@ -16,3 +17,12 @@ module.exports = (robot) ->
     announcement = res.match[2]
 
     robot.messageRoom "#{room}", "Hello #{room}! I thought you'd like to know that #{announcement}"
+
+#  robot.respond /tell (.*)/i (res) ->
+#    user = res.match[1]
+#    robot.send {room: user}, "Hello"
+  robot.respond /tell (.*?) (.*)/i, (res) ->
+    user = res.match[1]
+    message = res.match[2]
+
+    robot.send {room: user}, "#{message}"
