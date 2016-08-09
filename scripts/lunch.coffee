@@ -22,7 +22,9 @@ module.exports = (robot) ->
     {name: "Basil Thai", votes: 0},
     {name: "Brainwash", votes: 0},
     {name: "Extreme Pizza", votes: 0},
-    {name: "1058 Hoagies", votes: 0},
+    {name: "Citizens Band", votes: 0},
+    {name: "Focaccia", votes: 0},
+    {name: "Pampalasa", votes: 0},
     {name: "Other", votes: 0} # This should always be last in the array
   ]
   defaultRestaurants = restaurants.slice(0)
